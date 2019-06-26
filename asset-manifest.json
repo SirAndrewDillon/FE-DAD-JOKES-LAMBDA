@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/css/main.b0c6b8e4.chunk.css",
+    "main.js": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/main.f87d0e3b.chunk.js",
+    "main.js.map": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/main.f87d0e3b.chunk.js.map",
+    "runtime~main.js": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/runtime~main.a37e901f.js",
+    "runtime~main.js.map": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/runtime~main.a37e901f.js.map",
+    "static/js/2.6e653e07.chunk.js": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/2.6e653e07.chunk.js",
+    "static/js/2.6e653e07.chunk.js.map": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/js/2.6e653e07.chunk.js.map",
+    "index.html": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/index.html",
+    "precache-manifest.8f03b6b917d2642d6aa34317ba00bfb5.js": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/precache-manifest.8f03b6b917d2642d6aa34317ba00bfb5.js",
+    "service-worker.js": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/service-worker.js",
+    "static/css/main.b0c6b8e4.chunk.css.map": "/https://github.com/dadjokes-lambda-bw/dadjokesFE/static/css/main.b0c6b8e4.chunk.css.map"
+  }
+}
