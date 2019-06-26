@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/https://github.com/dadjokes-lambda-bw/dadjokesFE/precache-manifest.8f03b6b917d2642d6aa34317ba00bfb5.js"
+  "/https://github.com/https://github.com/dadjokes-lambda-bw/dadjokesFE/tree/dillon/precache-manifest.3571b3bd79a3c7a23088ab7a1a1d57c1.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/https://github.com/dadjokes-lambda-bw/dadjokesFE/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/https://github.com/https://github.com/dadjokes-lambda-bw/dadjokesFE/tree/dillon/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
