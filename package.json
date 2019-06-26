@@ -1,6 +1,7 @@
 {
   "name": "jokers",
   "version": "0.1.0",
+  "homepage": "https://sirandrewdillon.github.io/https://github.com/https://github.com/dadjokes-lambda-bw/dadjokesFE/tree/dillon",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
@@ -11,6 +12,7 @@
     "classnames": "^2.2.6",
     "favicon": "0.0.2",
     "formsy-react": "^1.1.5",
+    "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",
     "material-ui-advanced-text-field": "^1.0.2",
     "mdi-material-ui": "^6.1.0",
@@ -30,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

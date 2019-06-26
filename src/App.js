@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import Navbar from './components/layout/Navbar'
 import SignIn from './components/auth/SignIn'
 import SignUp from './components/auth/SignUp'
@@ -17,7 +17,7 @@ import './css/App.css';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
       <div className="App">
         <Navbar />
       <Switch>
@@ -28,7 +28,7 @@ class App extends Component {
         <SearchForm onSubmit={this.onSearchSubmit} />
       </Switch>  
       </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
