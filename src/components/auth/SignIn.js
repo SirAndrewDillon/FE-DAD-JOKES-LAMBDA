@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 
 class SignIn extends Component {
   state = {
-    email: '',
+    username: '',
     password: ''
   }
   handleChange = (e) => {
@@ -12,7 +13,11 @@ class SignIn extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(this.state);
+    axios.post('https://backend-dadjokes.herokuapp.com/api/auth/login', this.state)
+      .then(res => console.log(res.data.token))
+      .catch(err => console.log(err))
+      
+    
   }
   render() {
     return (
@@ -20,8 +25,8 @@ class SignIn extends Component {
         <form className="white" onSubmit={this.handleSubmit}>
           <h5 className="grey-text text-darken-5">Sign In</h5>
           <div className="input-field">
-            <label htmlFor="email">Email</label>
-            <input type="email" id='email' onChange={this.handleChange} />
+            <label htmlFor="email">username</label>
+            <input type="username" id='username' onChange={this.handleChange} />
           </div>
           <div className="input-field">
             <label htmlFor="password">Password</label>
