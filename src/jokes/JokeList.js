@@ -9,7 +9,7 @@ class JokeList extends Component {
   state = { jokes: [], loading: false };
 
   static defaultProps = {
-    numJokesToGet: 4
+    numJokesToGet: 10
   };
 
   componentDidMount() {
